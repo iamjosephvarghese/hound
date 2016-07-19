@@ -197,27 +197,6 @@ $(document).ready(function(){
 
 
 
-	/***************** Fancybox ******************/
-$(document).ready(function(){
-	$(".youtube-media").on("click", function(e) {
-		var jWindow = $(window).width();
-		if (jWindow <= 768) {
-			return;
-		}
-		$.fancybox({
-			href: this.href,
-			padding: 4,
-			type: "iframe",
-			'href': this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
-		});
-		return false;
-	});
-
-});
-
-
-
-
 	//Navigation animated scroll
 	$(document).on('click', 'header nav ul li a', function(event){
 		event.preventDefault()
