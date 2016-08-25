@@ -592,7 +592,7 @@ youtube video
 	left: 0;
 	padding: 20px;
 	color: #fff;
-	background-color: #ffbf00;
+	background-color: #ff6525;
 }
 .grid figcaption h5 {
 	margin: 0;
@@ -704,7 +704,7 @@ body .header {
 }
 
 .modal-header {
-	background: #ffbf00;
+	background: #ff6525;
 }
 .modal-header h4 {
 	color: white;
